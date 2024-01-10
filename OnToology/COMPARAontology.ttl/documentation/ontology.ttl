@@ -1,0 +1,462 @@
+@prefix : <https://w3id.org/def/compara_ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/def/compara_ontology#> .
+
+<https://w3id.org/def/compara_ontology#> rdf:type owl:Ontology ;
+                                          owl:versionIRI <https://w3id.org/def/compara_ontology/0.1> ;
+                                          <http://purl.org/dc/elements/1.1/created> "2021-01-01"^^xsd:date ;
+                                          <http://purl.org/dc/elements/1.1/creator> "Jacob González Isa" ,
+                                                                                    "Jimena Martín Reina" ;
+                                          <http://purl.org/dc/elements/1.1/description> "COMPARA (Comparative Analysis and Molecular Phylogenetics for Advanced Research) ontology aims to facilitate data sharing and interoperability among the scientific community working in evolution and comparative genomics."@en ;
+                                          <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                          <http://purl.org/dc/elements/1.1/title> "COMPARA ontology"@en ;
+                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "compara" ;
+                                          <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/def/compara_ontology#> ;
+                                          owl:versionInfo "0.1" ;
+                                          <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <http://semanticscience.org/resource/SIO_000030> ;
+                                  rdfs:range <http://semanticscience.org/resource/SIO_000750> .
+
+
+###  http://semanticscience.org/resource/SIO_000068
+<http://semanticscience.org/resource/SIO_000068> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_010035> ;
+                                                 rdfs:range <http://semanticscience.org/resource/ SIO_010016> .
+
+
+###  http://semanticscience.org/resource/SIO_000229
+<http://semanticscience.org/resource/SIO_000229> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_000101> ;
+                                                 rdfs:range <http://semanticscience.org/resource/SIO_010067> ,
+                                                            <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+
+
+###  http://semanticscience.org/resource/SIO_000244
+<http://semanticscience.org/resource/SIO_000244> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_010067> ;
+                                                 rdfs:range <http://semanticscience.org/resource/SIO_000030> .
+
+
+###  http://semanticscience.org/resource/SIO_000339
+<http://semanticscience.org/resource/SIO_000339> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3.org/def/compara_ontology/PhylogeneticTree> ;
+                                                 rdfs:range <http://semanticscience.org/resource/SIO_010067> .
+
+
+###  http://semanticscience.org/resource/SIO_000557
+<http://semanticscience.org/resource/SIO_000557> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3.org/def/compara_ontology/HomologGroup> ;
+                                                 rdfs:range <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+
+
+###  http://semanticscience.org/resource/SIO_001157
+<http://semanticscience.org/resource/SIO_001157> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3.org/def/compara_ontology/OrthologGroup> ,
+                                                             <http://www.w3.org/def/compara_ontology/ParalogGroup> ;
+                                                 rdfs:range <http://purl.obolibrary.org/obo/NCIT_C16607> ,
+                                                            <http://www.w3.org/def/compara_ontology/Speciation> .
+
+
+###  http://semanticscience.org/resource/SIO_001278
+<http://semanticscience.org/resource/SIO_001278> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_000101> ;
+                                                 rdfs:range <http://semanticscience.org/resource/SIO_000160> .
+
+
+###  http://semanticscience.org/resource/SIO_010079
+<http://semanticscience.org/resource/SIO_010079> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_010015> ;
+                                                 rdfs:range <http://semanticscience.org/resource/ SIO_010016> .
+
+
+###  http://semanticscience.org/resource/SIO_010302
+<http://semanticscience.org/resource/SIO_010302> rdf:type owl:ObjectProperty ,
+                                                          owl:SymmetricProperty ,
+                                                          owl:TransitiveProperty ;
+                                                 rdfs:domain <http://semanticscience.org/resource/SIO_010035> ;
+                                                 rdfs:range <http://semanticscience.org/resource/SIO_010035> .
+
+
+###  http://www.w3.org/def/compara_ontology/involves
+<http://www.w3.org/def/compara_ontology/involves> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://www.w3.org/def/compara_ontology/HomologGroup> ;
+                                                  rdfs:range <http://semanticscience.org/resource/SIO_010035> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/NCIT_C16607
+<http://purl.obolibrary.org/obo/NCIT_C16607> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17828> ;
+                                             owl:disjointWith <http://www.w3.org/def/compara_ontology/Speciation> .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_C17828
+<http://purl.obolibrary.org/obo/NCIT_C17828> rdf:type owl:Class .
+
+
+###  http://semanticscience.org/resource/SIO_000030
+<http://semanticscience.org/resource/SIO_000030> rdf:type owl:Class ;
+                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://purl.org/dc/terms/source> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/SIO_000750>
+                                                                 ] .
+
+
+###  http://semanticscience.org/resource/SIO_000101
+<http://semanticscience.org/resource/SIO_000101> rdf:type owl:Class ;
+                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_000229> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/SIO_010067>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_000229> ;
+                                                                   owl:allValuesFrom <http://www.w3.org/def/compara_ontology/PhylogeneticTree>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_001278> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/SIO_000160>
+                                                                 ] .
+
+
+###  http://semanticscience.org/resource/SIO_000160
+<http://semanticscience.org/resource/SIO_000160> rdf:type owl:Class .
+
+
+###  http://semanticscience.org/resource/SIO_000750
+<http://semanticscience.org/resource/SIO_000750> rdf:type owl:Class .
+
+
+###  http://semanticscience.org/resource/SIO_010015
+<http://semanticscience.org/resource/SIO_010015> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://semanticscience.org/resource/SIO_000030> ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_010079> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/ SIO_010016>
+                                                                 ] .
+
+
+###  http://semanticscience.org/resource/SIO_010035
+<http://semanticscience.org/resource/SIO_010035> rdf:type owl:Class ;
+                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_000068> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/ SIO_010016>
+                                                                 ] .
+
+
+###  http://semanticscience.org/resource/SIO_010067
+<http://semanticscience.org/resource/SIO_010067> rdf:type owl:Class ;
+                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_000244> ;
+                                                                   owl:allValuesFrom <http://semanticscience.org/resource/SIO_000030>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://semanticscience.org/resource/SIO_000244> ;
+                                                                   owl:minCardinality "3"^^xsd:nonNegativeInteger
+                                                                 ] .
+
+
+###  http://semanticscience.org/resource/ SIO_010016
+<http://semanticscience.org/resource/ SIO_010016> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://semanticscience.org/resource/SIO_000030> .
+
+
+###  http://www.w3.org/def/compara_ontology/GeneTrees
+<http://www.w3.org/def/compara_ontology/GeneTrees> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3.org/def/compara_ontology/PhylogeneticTree> ;
+                                                   owl:disjointWith <http://www.w3.org/def/compara_ontology/SpeciesTrees> .
+
+
+###  http://www.w3.org/def/compara_ontology/HomologGroup
+<http://www.w3.org/def/compara_ontology/HomologGroup> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://semanticscience.org/resource/SIO_000557> ;
+                                                                        owl:allValuesFrom <http://www.w3.org/def/compara_ontology/PhylogeneticTree>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.w3.org/def/compara_ontology/involves> ;
+                                                                        owl:allValuesFrom <http://semanticscience.org/resource/SIO_010035>
+                                                                      ] .
+
+
+###  http://www.w3.org/def/compara_ontology/InterspeciesParalog
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.w3.org/def/compara_ontology/ParalogGroup> ;
+                                                             owl:disjointWith <http://www.w3.org/def/compara_ontology/IntraspeciesParalog> .
+
+
+###  http://www.w3.org/def/compara_ontology/IntraspeciesParalog
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+
+
+###  http://www.w3.org/def/compara_ontology/OrthologGroup
+<http://www.w3.org/def/compara_ontology/OrthologGroup> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3.org/def/compara_ontology/HomologGroup> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://semanticscience.org/resource/SIO_001157> ;
+                                                                         owl:allValuesFrom <http://www.w3.org/def/compara_ontology/Speciation>
+                                                                       ] ;
+                                                       owl:disjointWith <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+
+
+###  http://www.w3.org/def/compara_ontology/ParalogGroup
+<http://www.w3.org/def/compara_ontology/ParalogGroup> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3.org/def/compara_ontology/HomologGroup> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://semanticscience.org/resource/SIO_001157> ;
+                                                                        owl:allValuesFrom <http://purl.obolibrary.org/obo/NCIT_C16607>
+                                                                      ] .
+
+
+###  http://www.w3.org/def/compara_ontology/PhylogeneticTree
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> rdf:type owl:Class ;
+                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://semanticscience.org/resource/SIO_000339> ;
+                                                                            owl:allValuesFrom <http://semanticscience.org/resource/SIO_010067>
+                                                                          ] .
+
+
+###  http://www.w3.org/def/compara_ontology/Speciation
+<http://www.w3.org/def/compara_ontology/Speciation> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C17828> .
+
+
+###  http://www.w3.org/def/compara_ontology/SpeciesTrees
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.obolibrary.org/obo/NCIT_C16607
+<http://purl.obolibrary.org/obo/NCIT_C16607> rdf:type owl:NamedIndividual ;
+                                             rdfs:label "N C I T_ C16607" .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_C17828
+<http://purl.obolibrary.org/obo/NCIT_C17828> rdf:type owl:NamedIndividual ;
+                                             rdfs:label "N C I T_ C17828" .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:NamedIndividual ;
+                                  rdfs:label "source" .
+
+
+###  http://semanticscience.org/resource/SIO_000030
+<http://semanticscience.org/resource/SIO_000030> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_000030" .
+
+
+###  http://semanticscience.org/resource/SIO_000068
+<http://semanticscience.org/resource/SIO_000068> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_000068" .
+
+
+###  http://semanticscience.org/resource/SIO_000101
+<http://semanticscience.org/resource/SIO_000101> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_000101" .
+
+
+###  http://semanticscience.org/resource/SIO_000160
+<http://semanticscience.org/resource/SIO_000160> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_000160" .
+
+
+###  http://semanticscience.org/resource/SIO_000229
+<http://semanticscience.org/resource/SIO_000229> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_000229" .
+
+
+###  http://semanticscience.org/resource/SIO_000244
+<http://semanticscience.org/resource/SIO_000244> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_000244" .
+
+
+###  http://semanticscience.org/resource/SIO_000339
+<http://semanticscience.org/resource/SIO_000339> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_000339" .
+
+
+###  http://semanticscience.org/resource/SIO_000557
+<http://semanticscience.org/resource/SIO_000557> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_000557" .
+
+
+###  http://semanticscience.org/resource/SIO_000750
+<http://semanticscience.org/resource/SIO_000750> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_000750" .
+
+
+###  http://semanticscience.org/resource/SIO_001157
+<http://semanticscience.org/resource/SIO_001157> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_001157" .
+
+
+###  http://semanticscience.org/resource/SIO_001278
+<http://semanticscience.org/resource/SIO_001278> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_001278" .
+
+
+###  http://semanticscience.org/resource/SIO_010015
+<http://semanticscience.org/resource/SIO_010015> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_010015" .
+
+
+###  http://semanticscience.org/resource/SIO_010035
+<http://semanticscience.org/resource/SIO_010035> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_010035" .
+
+
+###  http://semanticscience.org/resource/SIO_010067
+<http://semanticscience.org/resource/SIO_010067> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "S I O_010067" .
+
+
+###  http://semanticscience.org/resource/SIO_010079
+<http://semanticscience.org/resource/SIO_010079> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_010079" .
+
+
+###  http://semanticscience.org/resource/SIO_010302
+<http://semanticscience.org/resource/SIO_010302> rdf:type owl:NamedIndividual ;
+                                                 rdfs:label "s i o_010302" .
+
+
+###  http://semanticscience.org/resource/ SIO_010016
+<http://semanticscience.org/resource/ SIO_010016> rdf:type owl:NamedIndividual ;
+                                                  rdfs:label "  S I O_010016" .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:NamedIndividual ;
+           rdfs:label "label" .
+
+
+###  http://www.w3.org/def/compara_ontology/GeneTrees
+<http://www.w3.org/def/compara_ontology/GeneTrees> rdf:type owl:NamedIndividual ;
+                                                   rdfs:label "Gene Trees" .
+
+
+###  http://www.w3.org/def/compara_ontology/HomologGroup
+<http://www.w3.org/def/compara_ontology/HomologGroup> rdf:type owl:NamedIndividual ;
+                                                      rdfs:label "Homolog Group" .
+
+
+###  http://www.w3.org/def/compara_ontology/InterspeciesParalog
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> rdf:type owl:NamedIndividual ;
+                                                             rdfs:label "Interspecies Paralog" .
+
+
+###  http://www.w3.org/def/compara_ontology/IntraspeciesParalog
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> rdf:type owl:NamedIndividual ;
+                                                             rdfs:label "Intraspecies Paralog" .
+
+
+###  http://www.w3.org/def/compara_ontology/OrthologGroup
+<http://www.w3.org/def/compara_ontology/OrthologGroup> rdf:type owl:NamedIndividual ;
+                                                       rdfs:label "Ortholog Group" .
+
+
+###  http://www.w3.org/def/compara_ontology/ParalogGroup
+<http://www.w3.org/def/compara_ontology/ParalogGroup> rdf:type owl:NamedIndividual ;
+                                                      rdfs:label "Paralog Group" .
+
+
+###  http://www.w3.org/def/compara_ontology/PhylogeneticTree
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> rdf:type owl:NamedIndividual ;
+                                                          rdfs:label "Phylogenetic Tree" .
+
+
+###  http://www.w3.org/def/compara_ontology/Speciation
+<http://www.w3.org/def/compara_ontology/Speciation> rdf:type owl:NamedIndividual ;
+                                                    rdfs:label "Speciation" .
+
+
+###  http://www.w3.org/def/compara_ontology/SpeciesTrees
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> rdf:type owl:NamedIndividual ;
+                                                      rdfs:label "Species Trees" .
+
+
+###  http://www.w3.org/def/compara_ontology/involves
+<http://www.w3.org/def/compara_ontology/involves> rdf:type owl:NamedIndividual ;
+                                                  rdfs:label "involves" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

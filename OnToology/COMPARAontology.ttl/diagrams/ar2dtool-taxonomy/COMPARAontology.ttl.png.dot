@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "sio:SIO_000030" "comp:Speciation" "comp:IntraspeciesParalog" "comp:InterspeciesParalog" "http://semanticscience.org/resource/ SIO_010016" "sio:SIO_010015" "comp:SpeciesTrees" "obo:NCIT_C17828" "comp:GeneTrees" "obo:NCIT_C16607" "comp:ParalogGroup" "comp:OrthologGroup" "comp:HomologGroup" "comp:PhylogeneticTree" ; /*classes style*/
+	"sio:SIO_010015" -> "sio:SIO_000030" [ label = "rdfs:subClassOf" ];
+	"comp:ParalogGroup" -> "comp:HomologGroup" [ label = "rdfs:subClassOf" ];
+	"comp:OrthologGroup" -> "comp:HomologGroup" [ label = "rdfs:subClassOf" ];
+	"comp:InterspeciesParalog" -> "comp:ParalogGroup" [ label = "rdfs:subClassOf" ];
+	"obo:NCIT_C16607" -> "obo:NCIT_C17828" [ label = "rdfs:subClassOf" ];
+	"comp:SpeciesTrees" -> "comp:PhylogeneticTree" [ label = "rdfs:subClassOf" ];
+	"http://semanticscience.org/resource/ SIO_010016" -> "sio:SIO_000030" [ label = "rdfs:subClassOf" ];
+	"comp:GeneTrees" -> "comp:PhylogeneticTree" [ label = "rdfs:subClassOf" ];
+	"comp:Speciation" -> "obo:NCIT_C17828" [ label = "rdfs:subClassOf" ];
+	"comp:IntraspeciesParalog" -> "comp:ParalogGroup" [ label = "rdfs:subClassOf" ];
+
+}
