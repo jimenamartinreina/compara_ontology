@@ -1,4 +1,4 @@
- @prefix comp: <http://www.w3.org/def/compara_ontology/> .
+@prefix comp: <http://www.w3.org/def/compara_ontology/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mod: <https://w3id.org/mod#> .
