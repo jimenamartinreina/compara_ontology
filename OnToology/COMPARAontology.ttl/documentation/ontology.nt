@@ -1,0 +1,410 @@
+<https://w3id.org/def/compara_ontology#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/compara_ontology#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/compara_ontology/0.1> .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/created> "2021-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/creator> "Jacob González Isa" .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/creator> "Jimena Martín Reina" .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/description> "COMPARA (Comparative Analysis and Molecular Phylogenetics for Advanced Research) ontology aims to facilitate data sharing and interoperability among the scientific community working in evolution and comparative genomics."@en .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/dc/elements/1.1/title> "COMPARA ontology"@en .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "compara" .
+<https://w3id.org/def/compara_ontology#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/def/compara_ontology#> .
+<https://w3id.org/def/compara_ontology#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1" .
+<https://w3id.org/def/compara_ontology#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_000030> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_000750> .
+# 
+# http://semanticscience.org/resource/SIO_000068
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_010035> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/ SIO_010016> .
+# 
+# http://semanticscience.org/resource/SIO_000229
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_000101> .
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_010067> .
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+# 
+# http://semanticscience.org/resource/SIO_000244
+<http://semanticscience.org/resource/SIO_000244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000244> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_010067> .
+<http://semanticscience.org/resource/SIO_000244> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_000030> .
+# 
+# http://semanticscience.org/resource/SIO_000339
+<http://semanticscience.org/resource/SIO_000339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000339> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+<http://semanticscience.org/resource/SIO_000339> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_010067> .
+# 
+# http://semanticscience.org/resource/SIO_000557
+<http://semanticscience.org/resource/SIO_000557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000557> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/def/compara_ontology/HomologGroup> .
+<http://semanticscience.org/resource/SIO_000557> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+# 
+# http://semanticscience.org/resource/SIO_001157
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/def/compara_ontology/OrthologGroup> .
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/NCIT_C16607> .
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/def/compara_ontology/Speciation> .
+# 
+# http://semanticscience.org/resource/SIO_001278
+<http://semanticscience.org/resource/SIO_001278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_001278> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_000101> .
+<http://semanticscience.org/resource/SIO_001278> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_000160> .
+# 
+# http://semanticscience.org/resource/SIO_010079
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_010015> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/ SIO_010016> .
+# 
+# http://semanticscience.org/resource/SIO_010302
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_010035> .
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_010035> .
+# 
+# http://www.w3.org/def/compara_ontology/involves
+<http://www.w3.org/def/compara_ontology/involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/def/compara_ontology/involves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/def/compara_ontology/HomologGroup> .
+<http://www.w3.org/def/compara_ontology/involves> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_010035> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/NCIT_C16607
+<http://purl.obolibrary.org/obo/NCIT_C16607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCIT_C16607> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C17828> .
+<http://purl.obolibrary.org/obo/NCIT_C16607> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/def/compara_ontology/Speciation> .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C17828
+<http://purl.obolibrary.org/obo/NCIT_C17828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticscience.org/resource/SIO_000030
+<http://semanticscience.org/resource/SIO_000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_000750> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/source> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://semanticscience.org/resource/SIO_000101
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_010067> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000229> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000229> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_000160> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_001278> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://semanticscience.org/resource/SIO_000160
+<http://semanticscience.org/resource/SIO_000160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticscience.org/resource/SIO_000750
+<http://semanticscience.org/resource/SIO_000750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticscience.org/resource/SIO_010015
+<http://semanticscience.org/resource/SIO_010015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_010015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO_000030> .
+<http://semanticscience.org/resource/SIO_010015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/ SIO_010016> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_010079> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://semanticscience.org/resource/SIO_010035
+<http://semanticscience.org/resource/SIO_010035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_010035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/ SIO_010016> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000068> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://semanticscience.org/resource/SIO_010067
+<http://semanticscience.org/resource/SIO_010067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_010067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_000030> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000244> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://semanticscience.org/resource/SIO_010067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#minCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000244> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://semanticscience.org/resource/ SIO_010016
+<http://semanticscience.org/resource/ SIO_010016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/ SIO_010016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO_000030> .
+# 
+# http://www.w3.org/def/compara_ontology/GeneTrees
+<http://www.w3.org/def/compara_ontology/GeneTrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/GeneTrees> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+<http://www.w3.org/def/compara_ontology/GeneTrees> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/def/compara_ontology/SpeciesTrees> .
+# 
+# http://www.w3.org/def/compara_ontology/HomologGroup
+<http://www.w3.org/def/compara_ontology/HomologGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/HomologGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000557> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/def/compara_ontology/HomologGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_010035> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/def/compara_ontology/involves> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.w3.org/def/compara_ontology/InterspeciesParalog
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/def/compara_ontology/IntraspeciesParalog> .
+# 
+# http://www.w3.org/def/compara_ontology/IntraspeciesParalog
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+# 
+# http://www.w3.org/def/compara_ontology/OrthologGroup
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/HomologGroup> .
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/def/compara_ontology/Speciation> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_001157> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/def/compara_ontology/ParalogGroup> .
+# 
+# http://www.w3.org/def/compara_ontology/ParalogGroup
+<http://www.w3.org/def/compara_ontology/ParalogGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/ParalogGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/HomologGroup> .
+<http://www.w3.org/def/compara_ontology/ParalogGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.obolibrary.org/obo/NCIT_C16607> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_001157> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.w3.org/def/compara_ontology/PhylogeneticTree
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://semanticscience.org/resource/SIO_010067> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000339> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.w3.org/def/compara_ontology/Speciation
+<http://www.w3.org/def/compara_ontology/Speciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/Speciation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCIT_C17828> .
+# 
+# http://www.w3.org/def/compara_ontology/SpeciesTrees
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/def/compara_ontology/PhylogeneticTree> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/NCIT_C16607
+<http://purl.obolibrary.org/obo/NCIT_C16607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.obolibrary.org/obo/NCIT_C16607> <http://www.w3.org/2000/01/rdf-schema#label> "N C I T_ C16607" .
+# 
+# http://purl.obolibrary.org/obo/NCIT_C17828
+<http://purl.obolibrary.org/obo/NCIT_C17828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.obolibrary.org/obo/NCIT_C17828> <http://www.w3.org/2000/01/rdf-schema#label> "N C I T_ C17828" .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "source" .
+# 
+# http://semanticscience.org/resource/SIO_000030
+<http://semanticscience.org/resource/SIO_000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000030> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_000030" .
+# 
+# http://semanticscience.org/resource/SIO_000068
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_000068" .
+# 
+# http://semanticscience.org/resource/SIO_000101
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000101> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_000101" .
+# 
+# http://semanticscience.org/resource/SIO_000160
+<http://semanticscience.org/resource/SIO_000160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000160> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_000160" .
+# 
+# http://semanticscience.org/resource/SIO_000229
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000229> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_000229" .
+# 
+# http://semanticscience.org/resource/SIO_000244
+<http://semanticscience.org/resource/SIO_000244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000244> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_000244" .
+# 
+# http://semanticscience.org/resource/SIO_000339
+<http://semanticscience.org/resource/SIO_000339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000339> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_000339" .
+# 
+# http://semanticscience.org/resource/SIO_000557
+<http://semanticscience.org/resource/SIO_000557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000557> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_000557" .
+# 
+# http://semanticscience.org/resource/SIO_000750
+<http://semanticscience.org/resource/SIO_000750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_000750> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_000750" .
+# 
+# http://semanticscience.org/resource/SIO_001157
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_001157> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_001157" .
+# 
+# http://semanticscience.org/resource/SIO_001278
+<http://semanticscience.org/resource/SIO_001278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_001278> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_001278" .
+# 
+# http://semanticscience.org/resource/SIO_010015
+<http://semanticscience.org/resource/SIO_010015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_010015> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_010015" .
+# 
+# http://semanticscience.org/resource/SIO_010035
+<http://semanticscience.org/resource/SIO_010035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_010035> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_010035" .
+# 
+# http://semanticscience.org/resource/SIO_010067
+<http://semanticscience.org/resource/SIO_010067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_010067> <http://www.w3.org/2000/01/rdf-schema#label> "S I O_010067" .
+# 
+# http://semanticscience.org/resource/SIO_010079
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_010079" .
+# 
+# http://semanticscience.org/resource/SIO_010302
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/SIO_010302> <http://www.w3.org/2000/01/rdf-schema#label> "s i o_010302" .
+# 
+# http://semanticscience.org/resource/ SIO_010016
+<http://semanticscience.org/resource/ SIO_010016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticscience.org/resource/ SIO_010016> <http://www.w3.org/2000/01/rdf-schema#label> "  S I O_010016" .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" .
+# 
+# http://www.w3.org/def/compara_ontology/GeneTrees
+<http://www.w3.org/def/compara_ontology/GeneTrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/GeneTrees> <http://www.w3.org/2000/01/rdf-schema#label> "Gene Trees" .
+# 
+# http://www.w3.org/def/compara_ontology/HomologGroup
+<http://www.w3.org/def/compara_ontology/HomologGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/HomologGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Homolog Group" .
+# 
+# http://www.w3.org/def/compara_ontology/InterspeciesParalog
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> <http://www.w3.org/2000/01/rdf-schema#label> "Interspecies Paralog" .
+# 
+# http://www.w3.org/def/compara_ontology/IntraspeciesParalog
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> <http://www.w3.org/2000/01/rdf-schema#label> "Intraspecies Paralog" .
+# 
+# http://www.w3.org/def/compara_ontology/OrthologGroup
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/OrthologGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Ortholog Group" .
+# 
+# http://www.w3.org/def/compara_ontology/ParalogGroup
+<http://www.w3.org/def/compara_ontology/ParalogGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/ParalogGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Paralog Group" .
+# 
+# http://www.w3.org/def/compara_ontology/PhylogeneticTree
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/PhylogeneticTree> <http://www.w3.org/2000/01/rdf-schema#label> "Phylogenetic Tree" .
+# 
+# http://www.w3.org/def/compara_ontology/Speciation
+<http://www.w3.org/def/compara_ontology/Speciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/Speciation> <http://www.w3.org/2000/01/rdf-schema#label> "Speciation" .
+# 
+# http://www.w3.org/def/compara_ontology/SpeciesTrees
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/SpeciesTrees> <http://www.w3.org/2000/01/rdf-schema#label> "Species Trees" .
+# 
+# http://www.w3.org/def/compara_ontology/involves
+<http://www.w3.org/def/compara_ontology/involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/def/compara_ontology/involves> <http://www.w3.org/2000/01/rdf-schema#label> "involves" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
