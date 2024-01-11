@@ -120,7 +120,7 @@
   "@id" : "http://purl.obolibrary.org/obo/NCIT_C16607",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "N C I T_ C16607"
+    "@value" : "GeneDuplication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/NCIT_C17828"
@@ -132,7 +132,7 @@
   "@id" : "http://purl.obolibrary.org/obo/NCIT_C17828",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "N C I T_ C17828"
+    "@value" : "BiologicalProcess"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/created",
@@ -171,7 +171,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_000030",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_000030"
+    "@value" : "BiopolymerSequence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid1"
@@ -183,7 +183,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_010035"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_000068"
+    "@value" : "isPartOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/ SIO_010016"
@@ -192,7 +192,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_000101",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_000101"
+    "@value" : "SoftwareApplication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid2"
@@ -205,7 +205,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_000160",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_000160"
+    "@value" : "Journal"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/SIO_000229",
@@ -214,7 +214,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_000101"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_000229"
+    "@value" : "hasOutput"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_010067"
@@ -228,7 +228,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_010067"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_000244"
+    "@value" : "isDerivedFrom"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000030"
@@ -240,7 +240,7 @@
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_000339"
+    "@value" : "isSpecifiedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_010067"
@@ -252,7 +252,7 @@
     "@id" : "http://www.w3.org/def/compara_ontology/HomologGroup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_000557"
+    "@value" : "isDescribedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"
@@ -261,7 +261,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_000750",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_000750"
+    "@value" : "Database"
   } ]
 }, {
   "@id" : "http://semanticscience.org/resource/SIO_001157",
@@ -272,7 +272,7 @@
     "@id" : "http://www.w3.org/def/compara_ontology/ParalogGroup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_001157"
+    "@value" : "isResultOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://purl.obolibrary.org/obo/NCIT_C16607"
@@ -286,7 +286,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_000101"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_001278"
+    "@value" : "isDataItemIn"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000160"
@@ -295,7 +295,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_010015",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_010015"
+    "@value" : "ProteinSequence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000030"
@@ -306,7 +306,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_010035",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_010035"
+    "@value" : "Gene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid6"
@@ -315,7 +315,7 @@
   "@id" : "http://semanticscience.org/resource/SIO_010067",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S I O_010067"
+    "@value" : "MultipleSequenceAlignment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid7"
@@ -329,7 +329,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_010015"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_010079"
+    "@value" : "isEncodedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/ SIO_010016"
@@ -341,7 +341,7 @@
     "@id" : "http://semanticscience.org/resource/SIO_010035"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "s i o_010302"
+    "@value" : "isHomologousTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_010035"
@@ -350,7 +350,7 @@
   "@id" : "http://semanticscience.org/resource/ SIO_010016",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "  S I O_010016"
+    "@value" : "NucleicAcidSequence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000030"
@@ -374,7 +374,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/GeneTrees",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Gene Trees"
+    "@value" : "GeneTrees"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"
@@ -386,7 +386,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/HomologGroup",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Homolog Group"
+    "@value" : "HomologGroup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid9"
@@ -418,7 +418,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/OrthologGroup",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Ortholog Group"
+    "@value" : "OrthologGroup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/HomologGroup"
@@ -432,7 +432,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/ParalogGroup",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Paralog Group"
+    "@value" : "ParalogGroup"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/HomologGroup"
@@ -443,7 +443,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Phylogenetic Tree"
+    "@value" : "PhylogeneticTree"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid13"
@@ -461,7 +461,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/SpeciesTrees",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Species Trees"
+    "@value" : "SpeciesTrees"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/PhylogeneticTree"
