@@ -397,7 +397,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/InterspeciesParalog",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Interspecies Paralog"
+    "@value" : "InterspeciesParalog"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/ParalogGroup"
@@ -409,7 +409,7 @@
   "@id" : "http://www.w3.org/def/compara_ontology/IntraspeciesParalog",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Intraspecies Paralog"
+    "@value" : "IntraspeciesParalog"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/def/compara_ontology/ParalogGroup"
