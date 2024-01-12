@@ -833,10 +833,10 @@
         <rdfs:label>HomologGroup</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/InterspeciesParalog">
-        <rdfs:label>Interspecies Paralog</rdfs:label>
+        <rdfs:label>InterspeciesParalog</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/IntraspeciesParalog">
-        <rdfs:label>Intraspecies Paralog</rdfs:label>
+        <rdfs:label>IntraspeciesParalog</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/def/compara_ontology/OrthologGroup">
         <rdfs:label>OrthologGroup</rdfs:label>
