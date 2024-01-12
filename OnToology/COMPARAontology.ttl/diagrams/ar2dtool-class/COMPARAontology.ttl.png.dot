@@ -20,8 +20,8 @@ node [shape = rectangle, color="orange"]; "sio:SIO_000030" "sio:SIO_010067" "com
 	"NULL" -> "sio:SIO_000557" [ label = "owl:onProperty" ];
 	"NULL" -> "comp:Speciation" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "sio:SIO_000339" [ label = "owl:onProperty" ];
-	"NULL" -> "sio:SIO_000160" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "obo:NCIT_C16607" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "sio:SIO_000160" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "comp:involves" [ label = "owl:onProperty" ];
 	"NULL" -> "sio:SIO_000068" [ label = "owl:onProperty" ];
 	"NULL" -> "sio:SIO_001157" [ label = "owl:onProperty" ];
