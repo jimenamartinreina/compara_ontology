@@ -501,10 +501,10 @@ rdfs:label rdfs:label "label" .
 <http://www.w3.org/def/compara_ontology/HomologGroup> rdfs:label "HomologGroup" .
 
 
-<http://www.w3.org/def/compara_ontology/InterspeciesParalog> rdfs:label "Interspecies Paralog" .
+<http://www.w3.org/def/compara_ontology/InterspeciesParalog> rdfs:label "InterspeciesParalog" .
 
 
-<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> rdfs:label "Intraspecies Paralog" .
+<http://www.w3.org/def/compara_ontology/IntraspeciesParalog> rdfs:label "IntraspeciesParalog" .
 
 
 <http://www.w3.org/def/compara_ontology/OrthologGroup> rdfs:label "OrthologGroup" .
